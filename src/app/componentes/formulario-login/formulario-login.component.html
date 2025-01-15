@@ -1,0 +1,22 @@
+<section class="contenedorformulario">
+    <div class="form-container">
+        <h2>Iniciar Sesión</h2>
+        <form [formGroup]="formularioLogin" (ngSubmit)="manejoDeInicioSesion()">
+            <!-- Usuario -->
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario" name="email" placeholder="Ingresa tu usuario" required formControlName="email">
+            
+            <!-- Contraseña -->
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" name="password" placeholder="Ingresa tu contraseña" required formControlName="password">
+            
+            <!-- Botón de enviar -->
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+        <p class="registro-texto">
+            ¿No tienes una cuenta? 
+            <a routerLink="/registroUsuario">Regístrate aquí</a>
+        </p>
+    </div>
+</section>
+

@@ -1,0 +1,90 @@
+.menu{
+    
+
+}
+.menu1{
+    width: 100%;
+    height: 55px;
+    background-color: var(--fondoOscuro);
+    color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    font-size: 25px;
+}
+.menu1 a,
+.menu1 i{
+    color: var(--blanco);
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+.redes{
+   display: flex;
+   gap: 15px;
+}
+
+.mensaje{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.inicioSesion:hover{
+  border-bottom: solid 2px var(--blanco);
+}
+.menu2{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blanco);
+
+
+}
+.Logotipo{
+     width: 100px;
+    height: 100px; 
+}
+.menu3{
+    width: 100%;
+    height: 55px;
+     background-color:var(--grisSecundario); 
+    padding-top: 5px;
+
+}
+.Lista{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height: 100%;
+    
+}
+.Lista li{
+    height: 100%;
+}
+.Lista a{
+    color: var(--texto);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+.Lista a:hover{
+    border-bottom: 2px solid var(--texto);
+}
+
+/*---------------------------------------
+*/
+@media screen and (max-width:768px) {
+   nav{
+    font-size: 18px;
+   }
+    .mensaje{
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+header{
+    width: 100vw;
+}
+
+
+.contenedorBanner{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn{
+    position: absolute;
+    font-size: 35px;
+    padding: 10px 30px;
+    bottom: 6%;
+}
+.contenedorTitulo2{
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Productos{
+    
+    margin: auto;
+    font-size: 25px;
+
+}
+
+.contenedorImagen img{
+    width: 100%;
+}
+.tituloPromo{
+    background-color: var(--grisSecundario);
+   
+   
+}

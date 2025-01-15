@@ -1,0 +1,81 @@
+.contenedorformulario {
+    font-family: "Poppins", serif;
+    background-color: rgb(101, 113, 171);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #090808;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #090808;
+}
+
+.form-container input,
+.form-container button {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-container input:focus {
+    border-color: black;
+    outline: none;
+}
+
+.form-container button {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #d6d1d0 ;
+    color: black;
+}
+
+.registro-texto {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.registro-texto a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.registro-texto a:hover {
+    color: #07396e;
+    text-decoration: underline;
+    cursor: pointer;
+}

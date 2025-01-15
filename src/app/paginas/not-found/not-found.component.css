@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .error {
+    font-family: "Poppins", serif;
+    background-color: rgb(101, 113, 171);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    }
+    
+    .container {
+    text-align: center;
+    }
+    
+    
+    
+    .error-message {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+  
+    }
+    
+    .error-message h1 {
+        font-size: 100px;
+        color: #d33030;
+    }
+    
+    .error-message p {
+    font-size: 20px;
+        color: #000000;
+        margin: 20px 0;
+    }
+    
+
+    .back-home {   
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2d363f;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    }
+    
+    .back-home:hover {
+    background-color: #b0bcc9;
+    color: #000000;
+    }
