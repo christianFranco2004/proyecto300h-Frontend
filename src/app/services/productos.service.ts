@@ -35,7 +35,7 @@ export class ProductosService {
   }
 
   //peticion get categoria
-  getCategoriaUsuario(categoria: string){
+  getCategoryProduct(categoria: string){
 return this._httpClient.get(this.URL_PRODUCTOS + "/obtener/" + categoria);
   }
 

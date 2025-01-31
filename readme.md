@@ -46,3 +46,5 @@ Visualización y gestión de pedidos.
 <h3>Autores</h3>
 <br>
 <p>Realizado por Christian Franco y Sebastian Cardona.</p> 
+
+![alt text](image.png)

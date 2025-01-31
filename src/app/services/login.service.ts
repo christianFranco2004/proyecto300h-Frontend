@@ -55,10 +55,8 @@ export class LoginService {
 
   //7.CIERRE DE SESION ------------------------------
   cierreSesion() {
-    return this._toastrService.info("Cierre de sesion exitoso");
-
+   this._toastrService.info("Cierre de sesion exitoso");
     localStorage.removeItem("token");
-
     this._router.navigate(["/"]);
   }
 
